@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zhujuming.vip.activity.mapper.DeptDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.zhujuming.vip.common.model.Dept">
+        <id column="deptno" property="deptno" />
+        <result column="dname" property="dname" />
+        <result column="db_source" property="db_source" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        deptno, dname, db_source
+    </sql>
+
+    <select id="findById" resultType="com.zhujuming.vip.common.model.Dept" parameterType="Long">
+   select deptno,dname,db_source from dept where deptno=#{deptno};
+  </select>
+
+    <select id="findAll" resultType="com.zhujuming.vip.common.model.Dept">
+   select deptno,dname,db_source from dept;
+  </select>
+
+    <insert id="addDept" parameterType="com.zhujuming.vip.common.model.Dept">
+   INSERT INTO dept(dname,db_source) VALUES(#{dname},DATABASE());
+  </insert>
+
+</mapper>

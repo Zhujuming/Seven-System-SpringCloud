@@ -1,0 +1,16 @@
+server:
+  port: 7001                             # 端口号
+
+logging:
+  config: classpath:logback-dev.xml      # 日志读取logback-dev.xml 文件
+
+eureka:                                  # 配置Eureka Server 信息
+  instance:                              # 自定义实例编号
+    hostname: eureka7001.com             # Eureka 服务端的实例名称
+  client:
+    register-with-eureka: false          # false表示不向注册中心注册自己
+    fetch-registry: false                # false表示自己端就是注册中心，我的职责就是维护服务实例，并不需要去检测服务
+    service-url:
+                                        # 单机:defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/  # 设置与Eureka Server交互的地址查询服务和注册服务
+      defaultZone: http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/
+

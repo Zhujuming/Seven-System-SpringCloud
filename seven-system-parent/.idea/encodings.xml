@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-activity" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-contract01" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-eureka-7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-eureka-7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-eureka-7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-fegin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-generator" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-report" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/seven-system-service" charset="UTF-8" />
+  </component>
+</project>
