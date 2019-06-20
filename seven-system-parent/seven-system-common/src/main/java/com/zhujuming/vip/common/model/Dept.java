@@ -12,7 +12,7 @@ import java.io.Serializable;
 @SuppressWarnings("serial") //取消序列化警告
 public class Dept implements Serializable {
 
-    private Integer deptno;
+    private long deptno;
     private String dname;
     private String db_source;
 

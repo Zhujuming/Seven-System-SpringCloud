@@ -21,6 +21,9 @@
         <module>seven-system-report</module>
         <module>seven-system-activity</module>
         <module>seven-system-fegin</module>
+        <module>seven-system-hystrix</module>
+        <module>seven-system-dashboard</module>
+        <module>seven-system-zuul</module>
     </modules>
 
     <properties>

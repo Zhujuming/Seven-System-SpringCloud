@@ -6,16 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="seven-system-contract01" />
-        <module name="seven-system-eureka-7002" />
-        <module name="seven-system-eureka-7001" />
-        <module name="seven-system-report" />
-        <module name="seven-system-consumer" />
+        <module name="seven-system-activity" />
         <module name="seven-system-service" />
         <module name="seven-system-generator" />
+        <module name="seven-system-consumer" />
+        <module name="seven-system-hystrix" />
         <module name="seven-system-common" />
+        <module name="seven-system-contract01" />
+        <module name="seven-system-dashboard" />
+        <module name="seven-system-zuul" />
+        <module name="seven-system-report" />
         <module name="seven-system-eureka-7003" />
-        <module name="seven-system-activity" />
+        <module name="seven-system-eureka-7002" />
+        <module name="seven-system-eureka-7001" />
         <module name="seven-system-fegin" />
       </profile>
     </annotationProcessing>

@@ -7,7 +7,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.List;
 
-@FeignClient(value = "SYSTEM-SERVICE-PROVIDER")
+//@FeignClient(value = "SYSTEM-SERVICE-PROVIDER")
+@FeignClient(value = "SYSTEM-SERVICE-PROVIDER",fallbackFactory = DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
 
     @RequestMapping(value = "/dept/get/{id}",method = RequestMethod.GET)
