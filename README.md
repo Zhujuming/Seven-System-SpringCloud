@@ -16,7 +16,7 @@
 -   seven-system-report 报表模块
 -   seven-system-activity 活动模块
 -   seven-system-service 主模块
--   seven-system-eureka eureka集群
+-   seven-system-eureka eureka
 -   seven-system-generator 自动生成mapper,entity,XXX.xml等文件
 
 ![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/dt/6.svg)
