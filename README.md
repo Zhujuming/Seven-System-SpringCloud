@@ -16,9 +16,7 @@
 -   seven-system-report 报表模块
 -   seven-system-activity 活动模块
 -   seven-system-service 主模块
--   seven-system-eureka-7001 eureka集群1
--   seven-system-eureka-7001 eureka集群2
--   seven-system-eureka-7001 eureka集群3
+-   seven-system-eureka eureka集群
 -   seven-system-generator 自动生成mapper,entity,XXX.xml等文件
 
 ![Eclipse Marketplace](https://img.shields.io/eclipse-marketplace/dt/6.svg)
@@ -31,7 +29,7 @@
 ### 相关技术
 - JDK8 代码采用了链式调用 
 - 日志框架采用 logback
-- Eureka 搭建了集群,
+- Eureka 
 - Fegin 做了负载均衡,默认采用轮询 (Fegin通过接口的方式调用Rest服务，Fegin融合了Ribbon)
 - 整合了 Hytrix 作为熔断器
 
